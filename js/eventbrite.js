@@ -4,7 +4,7 @@ class EventBrite{
     }
     
     async getcryptocurrencies(){
-        const url = await fetch('KZXZUEVF5RWRVL3NNRN5');
+        const url = await fetch('https://www.eventbriteapi.com/v3/categories/?token=KZXZUEVF5RWRVL3NNRN5');
         const myevents = await url.json();
         return {
             myevents

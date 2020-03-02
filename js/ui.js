@@ -6,7 +6,7 @@ class UI{
         this.printcryptocurrencies();
     }
     printcryptocurrencies(){
-        CryptoApi.getcryptocurrencies()
+        eventbrite.getcryptocurrencies()
         .then(events => {
             console.log(events);
         })
