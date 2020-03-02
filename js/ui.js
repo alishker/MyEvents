@@ -3,6 +3,12 @@ class UI{
         this.init()
     }
     init(){
-        const
+        this.printcryptocurrencies();
+    }
+    printcryptocurrencies(){
+        CryptoApi.getcryptocurrencies()
+        .then(events => {
+            console.log(events);
+        })
     }
 }
