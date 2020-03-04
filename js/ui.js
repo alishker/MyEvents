@@ -6,8 +6,8 @@ class UI{
         this.printcryptocurrencies();
     }
     printcryptocurrencies(){
-        eventbrite.getcryptocurrencies()
-        .then(events => {
+         const categoriesLists = eventbrite.getcryptocurrencies()
+        .then(categories => {
             const categoryList = category.category.category;
             const categorySelect = document.createElement('select');
             categoryList.forEach(category => {
