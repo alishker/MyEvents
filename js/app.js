@@ -10,6 +10,13 @@ function loadEvents(e){
    e.preventDefault();
    const eventName = document.getElementById('event-name').value;
    const categoryList = document.getElementById('category').value;
-   Console.log(eventName);
+   //Console.log(eventName + ':' + categoryList);
+   if(eventName !==''){
+      console.log('sucess');
+   }
+   else{
+      //console.log('failed..')
+      ui.printMessage('Add an event or a city' ,'alert alert-danger mt-4');
+   }
 }
 
