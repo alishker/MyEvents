@@ -4,7 +4,7 @@ more updates on the way....
 almost finishing on this awsome API
 
 #INSTALLATION
-you require An A personal api key
+you require A personal api key
 
 #FEATURES
 Exact events from Event api:
